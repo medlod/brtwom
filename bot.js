@@ -11,8 +11,8 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : BAND GANG ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`ARABIC RP l MTA SAN ANDREAS`)
-client.user.setStatus("dnd")
+client.user.setGame(`TwoM RolePlay I Car Parking Multiplayer`)
+client.user.setStatus("Online")
 });
 
 
@@ -45,11 +45,11 @@ client.on("message", async message => {
                                         message.guild.members.forEach(member => {
                                             let bc = new Discord.RichEmbed()
                                             .setColor("#000000")
-                                            .setTitle("رسالة من طرف عربي رول بلاي  ")
+                                            .setTitle("Announcement By TwoM RolePlay Server:  ")
                                            
-                                            .setThumbnail("https://i.ibb.co/fSYkY4t/image0.png")                                                       
+                                            .setThumbnail("https://i.ibb.co/wRDZTNJ/image0.jpg")                                                       
                                            
-                                           .addField ("محتوى الرسالة ", args);
+                                           .addField ("!Announcement!", args);
                                             
                                             member.sendEmbed(bc);
                                         });
