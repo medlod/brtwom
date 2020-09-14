@@ -47,7 +47,7 @@ client.on("message", async message => {
                                             .setColor("#000000")
                                             .setTitle("Announcement By TwoM RolePlay Server:  ")
                                            
-                                            .setThumbnail("https://i.ibb.co/wRDZTNJ/image0.jpg")                                                       
+                                            .setThumbnail("https://i.ibb.co/Fxkm9kN/8-C9-A7-AD5-4526-4024-8-F9-C-45-AC633-B23-E8.png")                                                       
                                            
                                            .addField ("!Announcement!", args);
                                             
